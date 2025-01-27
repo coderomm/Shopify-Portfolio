@@ -99,7 +99,7 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       },
       Resume: {
         name: "Download Resume",
-        url: "/OmSharma_Nov2024.pdf",
+        url: "/Om Sharma__ShopifyResume.pdf",
         icon: Icons.resume,
         navbar: true,
       },
