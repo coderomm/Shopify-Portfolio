@@ -3,6 +3,8 @@
 import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
 import { useRef } from "react";
 
+const BLUR_FADE_DELAY = 0.075;
+
 interface BlurFadeProps {
   children: React.ReactNode;
   className?: string;
@@ -14,7 +16,7 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  inViewMargin?: any;
   blur?: string;
 }
 const BlurFade = ({
@@ -45,7 +47,7 @@ const BlurFade = ({
         exit="hidden"
         variants={combinedVariants}
         transition={{
-          delay: 0.04 + delay,
+          delay: BLUR_FADE_DELAY + delay,
           duration,
           ease: "easeOut",
         }}
