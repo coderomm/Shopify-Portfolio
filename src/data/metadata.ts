@@ -1,7 +1,7 @@
-import { Metadata } from 'next';
+    import { Metadata } from 'next';
 
 export const baseMetadata: Metadata = {
-    metadataBase: new URL('https://shopify-developer.vercel.app/'),
+    metadataBase: new URL('https://shopify.omsharma.xyz'),
     title: {
         default: 'Om Sharma | Expert Shopify Developer',
         template: '%s | Om Sharma'
@@ -52,14 +52,14 @@ export const baseMetadata: Metadata = {
         'Shopify JavaScript Developer',
         'Shopify Store Migration Expert'
     ],
-    authors: [{ name: 'Om Sharma', url: 'https://shopify-developer.vercel.app/' }],
+    authors: [{ name: 'Om Sharma', url: 'https://shopify.omsharma.xyz' }],
     creator: 'Om Sharma',
     publisher: 'Om Sharma',
 
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://shopify-developer.vercel.app/',
+        url: 'https://shopify.omsharma.xyz',
         title: 'Om Sharma | Expert Shopify Developer',
         description: 'Om Sharma, a Shopify Plus and Themes Developer specializing in Liquid, API integrations, and creating seamless eCommerce experiences.',
         siteName: 'Om Sharma Shopify Developer Portfolio',  
@@ -101,7 +101,7 @@ export const baseMetadata: Metadata = {
     },
 
     alternates: {
-        canonical: 'https://shopify-developer.vercel.app/'
+        canonical: 'https://shopify.omsharma.xyz'
     },
 
     icons: {
@@ -126,7 +126,7 @@ export const jsonLdSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     'name': 'Om Sharma',
-    'url': 'https://shopify-developer.vercel.app/',
+    'url': 'https://shopify.omsharma.xyz',
     'sameAs': [
         'https://twitter.com/1omsharma',
         'https://github.com/coderomm',

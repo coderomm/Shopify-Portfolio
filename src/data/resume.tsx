@@ -15,7 +15,7 @@ export const DATA = {
 As a highly skilled Shopify Developer, I specialize in creating and optimizing e-commerce websites, enhancing site speed, SEO, and delivering clean, maintainable code with exceptional user experiences.
 
 With a proven track record of 10+ successful projects, I’ve tackled complex technical and business challenges, customizing Shopify themes, and implementing innovative solutions. I excel in collaborating with cross-functional teams—including designers, project managers, and CEOs—to deliver tailored, high-performing online stores that drive results.`,
-  avatarUrl: "https://omsharma.vercel.app/OmSharma%20New.jpg",
+  avatarUrl: "https://www.omsharma.xyz/OmSharma%20New.jpg",
   skills: [
     "HTML",
     "CSS",
@@ -145,7 +145,7 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       badges: [],
       location: "Bhilwara, Rajasthan",
       title: "Full Stack Web Developer - Intern",
-      logoUrl: "https://omsharma.vercel.app/DataBoltaHai.png",
+      logoUrl: "https://www.omsharma.xyz/DataBoltaHai.png",
       start: "May 2023",
       end: "Dec 2023",
       description:
@@ -157,7 +157,7 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       badges: [],
       location: "Bhilwara, Rajasthan",
       title: "Asp.NET Developer - Intern",
-      logoUrl: "https://omsharma.vercel.app/SPMPL.png",
+      logoUrl: "https://www.omsharma.xyz/SPMPL.png",
       start: "Nov 2022",
       end: "May 2023",
       description:
@@ -169,7 +169,7 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       school: "100xDevs",
       href: "https://100xdevs.com/",
       degree: "Full Stack Dev + Web3 + DevOps",
-      logoUrl: "https://omsharma.vercel.app/100xdevs.jpg",
+      logoUrl: "https://www.omsharma.xyz/100xdevs.jpg",
       start: "June 2024",
       end: "Present",
     },
