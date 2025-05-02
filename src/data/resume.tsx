@@ -270,6 +270,32 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       video: "",
     },
     {
+      title: "Vivanti London",
+      href: "https://vivantilondon.com/",
+      dates: "2025",
+      active: true,
+      description:
+        "Resolved UI/UX issues on the Product Detail Page (PDP) caused by language translation bugs. Improved and optimized the PDP for better performance and user experience.",
+      technologies: [
+        "Shopify",
+        "Custom Development",
+        "Liquid Template Language",
+        "Liquid Schema Updates",
+        "Site Optimization",
+        "Language Translation Bug Fix",
+        "App Fix",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vivantilondon.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/VivantiLondon.png",
+      video: "",
+    },
+    {
       title: "SLC",
       href: "https://shopslc.com/",
       dates: "2024 - 2025",
