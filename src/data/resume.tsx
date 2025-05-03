@@ -245,6 +245,32 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       video: "",
     },
     {
+      title: "Vivanti London",
+      href: "https://vivantilondon.com/",
+      dates: "2025",
+      active: true,
+      description:
+        "Resolved UI/UX issues on the Product Detail Page (PDP) caused by language translation bugs. Improved and optimized the PDP for better performance and user experience.",
+      technologies: [
+        "Shopify",
+        "Custom Development",
+        "Liquid Template Language",
+        "Liquid Schema Updates",
+        "Site Optimization",
+        "Language Translation Bug Fix",
+        "App Fix",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vivantilondon.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/VivantiLondon.png",
+      video: "",
+    },
+    {
       title: "Kavarsa",
       href: "https://kavarsa.com/",
       dates: "2024",
@@ -270,29 +296,29 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       video: "",
     },
     {
-      title: "Vivanti London",
-      href: "https://vivantilondon.com/",
-      dates: "2025",
+      title: "Nuvijewels",
+      href: "https://nuvijewels.com/",
+      dates: "2023",
       active: true,
       description:
-        "Resolved UI/UX issues on the Product Detail Page (PDP) caused by language translation bugs. Improved and optimized the PDP for better performance and user experience.",
+        "Customising Shopify theme to match the client's branding, including layout, colours, fonts, and imagery.",
       technologies: [
+        "HTML5",
+        "CSS",
+        "Javascript",
         "Shopify",
-        "Custom Development",
+        "Shopify Customization",
         "Liquid Template Language",
-        "Liquid Schema Updates",
-        "Site Optimization",
-        "Language Translation Bug Fix",
-        "App Fix",
+        "Site Optimization"
       ],
       links: [
         {
           type: "Website",
-          href: "https://vivantilondon.com/",
+          href: "https://nuvijewels.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/VivantiLondon.png",
+      image: "/Nuvi.png",
       video: "",
     },
     {
@@ -372,32 +398,6 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
         },
       ],
       image: "/Dcotstar.png",
-      video: "",
-    },
-    {
-      title: "Nuvijewels",
-      href: "https://nuvijewels.com/",
-      dates: "2023",
-      active: true,
-      description:
-        "Customising Shopify theme to match the client's branding, including layout, colours, fonts, and imagery.",
-      technologies: [
-        "HTML5",
-        "CSS",
-        "Javascript",
-        "Shopify",
-        "Shopify Customization",
-        "Liquid Template Language",
-        "Site Optimization"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://nuvijewels.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/Nuvi.png",
       video: "",
     },
   ],
