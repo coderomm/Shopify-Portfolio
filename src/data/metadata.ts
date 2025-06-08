@@ -1,9 +1,9 @@
-    import { Metadata } from 'next';
+import { Metadata } from 'next';
 
 export const baseMetadata: Metadata = {
     metadataBase: new URL('https://shopify.omsharma.xyz'),
     title: {
-        default: 'Om Sharma | Expert Shopify Developer',
+        default: 'Om Sharma | Shopify Developer',
         template: '%s | Om Sharma'
     },
     description: 'Om Sharma, an expert Shopify Plus Developer specializing in Shopify Themes, Liquid customization, Shopify EcoSystem and eCommerce growth. Skilled in building scalable, high-performance Shopify stores tailored to client needs.',
@@ -62,7 +62,7 @@ export const baseMetadata: Metadata = {
         url: 'https://shopify.omsharma.xyz',
         title: 'Om Sharma | Expert Shopify Developer',
         description: 'Om Sharma, a Shopify Plus and Themes Developer specializing in Liquid, API integrations, and creating seamless eCommerce experiences.',
-        siteName: 'Om Sharma Shopify Developer Portfolio',  
+        siteName: 'Om Sharma Shopify Developer Portfolio',
         images: [
             {
                 url: '/og-image.png',
@@ -106,12 +106,17 @@ export const baseMetadata: Metadata = {
 
     icons: {
         icon: [
-            { url: '/favicon.ico' },
-            { url: '/favicon.png', sizes: '192x192', type: 'image/png' },
-            { url: '/favicon_512.png', sizes: '512x512', type: 'image/png' }
+            { url: '/favicon.ico' }, // classic favicon.ico
+            { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+            { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+            { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+            { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
         ],
         apple: [
-            { url: '/favicon.png', sizes: '180x180' }
+            { url: '/apple-touch-icon.png', sizes: '180x180' },
+        ],
+        other: [
+            { rel: 'manifest', url: '/site.webmanifest' }
         ]
     },
 

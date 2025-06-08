@@ -208,6 +208,8 @@ export default function Page() {
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
+                  target={DATA.contact.social.X.newtab ? "_blank" : undefined}
+                  rel={DATA.contact.social.X.newtab ? "noopener noreferrer" : undefined}
                 >
                   with a direct question on twitter
                 </Link>{" "}

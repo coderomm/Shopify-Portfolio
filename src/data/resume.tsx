@@ -54,54 +54,42 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
         url: "https://github.com/coderomm",
         icon: Icons.github,
         navbar: true,
+        newtab: true
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/1omsharma/",
         icon: Icons.linkedin,
         navbar: true,
+        newtab: true
       },
       X: {
         name: "X",
         url: "https://x.com/1omsharma",
         icon: Icons.x,
         navbar: true,
+        newtab: true
       },
-      Discord: {
-        name: "Discord",
-        url: "https://discord.com/@coder.om",
-        icon: Icons.discord,
+      Upwork: {
+        name: "Upwork",
+        url: "https://www.upwork.com/freelancers/~0197e761ded7f7e7",
+        icon: Icons.upwork,
         navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://www.youtube.com/@Coder_Om",
-        icon: Icons.youtube,
-        navbar: true,
-      },
-      PeerList: {
-        name: "PeerList",
-        url: "https://peerlist.io/omsharma",
-        icon: Icons.peerlist,
-        navbar: false,
-      },
-      ProductHunt: {
-        name: "Product Hunt",
-        url: "https://youlayer.tech",
-        icon: Icons.producthunt,
-        navbar: false,
+        newtab: true
       },
       Email: {
         name: "Send Email",
         url: "mailto:mail.coderom@gmail.com",
         icon: Icons.email,
         navbar: true,
+        newtab: true
       },
       Resume: {
         name: "Download Resume",
-        url: "/Om Sharma__ShopifyResume.pdf",
+        url: "/OmSharma_Resume_June2025.pdf",
         icon: Icons.resume,
         navbar: true,
+        newtab: true
       },
     },
   },
@@ -115,7 +103,7 @@ With a proven track record of 10+ successful projects, I’ve tackled complex te
       // logoUrl: "https://www.definedigitally.com/wp-content/uploads/2021/12/DDD.png",
       logoUrl: "/shopify.svg",
       start: "Nov 2023",
-      end: "Present",
+      end: "May 2025",
       description:
         `As the only developer at Define Digitally, I’m responsible for everything tech and development-related.
         
